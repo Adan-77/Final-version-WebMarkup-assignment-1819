@@ -1,0 +1,410 @@
+  /***********************GENERAL CODE FOR ALL PAGES*******************/
+/*@import url('https://fonts.googleapis.com/css?family=Ubuntu'); */
+
+@font-face {
+  font-family: 'Spicy Rice', cursive;
+  src = url("font/SpicyRice-Regular.tff")
+}
+
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* body  for all pages*/
+body {
+ text-align: center;
+ width: 960px;
+ margin: auto;
+
+}
+
+/*Linking all pages*/
+a{
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 70px;
+}
+
+/* backgroud  for all pages*/
+#background{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  height: 100%;
+  margin: auto;
+  background-size: 100% 100%;
+  z-index: -1;
+}
+/*navigation bar for all pages*/
+nav{
+  color: white;
+  background-color: #707070;
+  width: 100%;
+  height: 40px;
+  margin: auto;
+  font-size: 1em;
+  line-height: 40px;
+  margin-top: -18px;
+}
+
+.navbar li{
+  display: inline;
+  text-align: center;
+  margin: auto;
+  word-spacing: 153px;
+  text-transform: uppercase;
+}
+
+/*header for all pages*/
+h1{
+  background-image: url("../img/companylogoBG.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  height: 160px;
+  margin: auto;
+  -webkit-text-fill-color: #FFFFFF;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 0.400px;
+
+  font-family: 'Spicy Rice', cursive;
+  /*'Ubuntu', sans-serif;*/
+  line-height: 160px;
+  font-size: 5em;
+  text-transform: uppercase;
+  }
+
+/*footer  for all pages*/
+  .footer{
+    color: #FFFFFF;
+    background-color: #000000;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    font-size: 1.4em;
+    line-height: 40px;
+  }
+
+  .strip{
+    width: 300%
+  }
+
+  /************************CODE FOR INDEX PAGE************************/
+/*  h2
+
+/*  .article1, .article3, .article5, .article7  */
+
+h2{
+  background-color: #2699FB;
+  text-transform: uppercase;
+  color: white;
+  height: 200px;
+  width: 100%;
+  font-size: 5em;
+  text-align:  center;
+  margin:auto;
+}
+.article1{
+  height: 200px;
+  width: 100%;
+  padding-right: 42px;
+  padding-top: -30px;
+  padding-bottom: -30px;
+}
+
+.banner2, .banner3, .banner4
+{
+  height: 200px;
+  width: 62%;
+  padding-top: none;
+  padding-bottom: none;
+  margin: none;
+  padding-left: 194px;
+  padding-right: 171px;
+  margin: auto;
+  text-align: center;
+}
+
+/*
+h2{
+  background-color: #2699FB;
+  text-transform: uppercase;
+  color: white;
+  height: 200px;
+  width: 100%;
+  font-size: 5em;
+  text-align: center;
+  margin:auto;
+  line-height: 200px;
+}*/
+
+.pic1, .pic2, .pic3, .pic4
+{
+  height: 30em;
+  width: 100%;
+  text-align: center;
+  margin-bottom: -0.3em;
+}
+
+/**************************PRODUCT PAGE****************************/
+
+h3{
+  background-color: #2699FB;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  height: 200px;
+  width: 100%;
+  font-size: 5em;
+  text-align: center;
+  margin:auto;
+  line-height: 200px;
+  padding-left: -40px;
+  padding-right: -40px;
+}
+
+.generalPic{
+  margin: auto;
+  width: 100%;
+  display: grid;
+  text-align: center;
+  grid-template-columns:auto;
+  /*justify-content:space-around;*/
+}
+/*outer frame of all pics*/
+.AllPics{
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.AllPics>img{
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 2px;
+  height: 250px;
+  width: 31.9%;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+/***************CONTACT PAGE************************/
+h5{
+  background-color: #2699FB;
+  text-transform: uppercase;
+  color: white;
+  height: 140px;
+  width: 100%;
+  font-size: 5em;
+  text-align: center;
+  margin:auto;
+  line-height: 140px;
+}
+
+/*more info top bar""*/
+.moreInfo
+{
+  color: #444444;
+  background-color: #FFFFFF;
+  text-align: left;
+  width: 95%;
+  font-size: 1.7em;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  margin-top: none;
+  padding-top: none;
+}
+
+
+form{
+  background-color: #FFFFFF;
+  height: 490px;
+  margin: auto;
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 28px;
+}
+
+
+.allForm{
+  margin-bottom: none;
+
+}
+
+/**this are the fieldsets(select, sumbit & writing something)*/
+fieldset{
+  padding: 0;
+  width: 90%;
+  text-align: left;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #FFFFFF;
+}
+
+
+/* outer box of "writing something" & submit box*/
+textarea{
+  width: auto;
+  resize: none;
+  border: none;
+  width: 95%;
+  padding-right: 41.4px;
+  margin: auto;
+  background-color: #FFFFFF;
+  height: 160px;
+}
+
+/*select box code*/
+.topic{
+  height: 35px;
+  margin: auto;
+  text-align: right;
+  margin-left: 14px;
+  padding-right: 115px;
+}
+
+.Mytopic
+{
+  height: 35px;
+  line-height: 35px;
+  color: #707070;
+}
+
+form fieldset select
+{
+width: 75%;
+height: 30px;
+text-align: center;
+color: #707070;
+}
+
+/* outer boxes of name & email & sumbit */
+input
+{
+  border: none;
+  width: 96.7%;
+  padding-left: 15px;
+  padding-right: 14px;
+  padding-bottom: 4.5px;
+  height: 35px;
+}
+
+.MySubmit
+{
+  color: #FFFFFF;
+  font-size: 1.4em;
+  margin-top: 20px;
+  width: 90%;
+  background-color: #2699FB;
+  margin-bottom: 20px;
+}
+
+ section form footer{
+  margin-bottom: 50px;
+  color: #FFFFFF;
+  background-color: #000000;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  margin: auto;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+
+/**************media stuff**************8*/
+
+/* mobile*/
+@media screen and (max-width:361px)
+{
+#background{
+  display: none;
+}
+
+.banner2, .banner3, .banner4{
+  display: none;
+}
+body{
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.navbar li
+{
+  display: none;
+}
+nav{
+  color: white;
+  background-color: #707070;
+  width: 100%;
+}
+
+.generalPic
+{
+  margin: auto;
+  width: 100%;
+  display: column;
+  text-align: center;
+  grid-template-columns:auto;
+  /*justify-content:space-around;*/
+}
+/*outer frame of all pics*/
+.AllPics{
+  text-align: center;
+  background-color: #FFFFFF;
+}
+.AllPics>img{
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 2px;
+  height: 250px;
+  width: 90%;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+}
+
+
+
+/*tablet desing*/
+
+@media screen and (max-width:961px)
+{
+
+  /*contact page*/
+  #backgroud
+  {
+  display: none;
+  }
+
+  /*product page*/
+  .generalPic
+  {
+    display: grid;
+  }
+
+  .AllPics>img
+  {
+    width: 40%;
+  }
+  /*index page*/
+.banner2, .banner3
+{
+  display: none;
+}
+
+
+
+.article6{
+  display: none;
+}
+
+}

@@ -1,0 +1,3 @@
+student name : Abdikani Muse Adan
+student number : 635032
+student class : IT-1B
